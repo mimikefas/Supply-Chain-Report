@@ -27,7 +27,7 @@ Before building the dashboard, the data went through several cleaning and transf
 This dashboard offers a complete view of the supply chain across four key areas: products, revenue, customer orders, and suppliers. It was designed to identify operational gaps, revenue patterns, and areas for improvement in delivery and supply reliability.
 
 ## Product Insights
-This session focuses on key metrics related to product availability, supply and performance. It gives a quick snapshot of how the product line-up is doing within the supply chain system.
+This section focuses on key metrics related to product availability, supply and performance. It gives a quick snapshot of how the product line-up is doing within the supply chain system.
 - 200 products tracked with 387,000 units produced.
 - Highest revenue from Groceries, followed by Health & Beauty.
 - Top product by revenue: *You Are Providing Yourself Basic* (₦6.37B).
@@ -55,14 +55,14 @@ This section focuses on supplier activity, performance, and contribution to the 
 - Top suppliers by quantity: Nguyen Matthews, Fitzpatrick Ltd, Moore Group.
 - Top revenue supplier: Bowers and Sons.
 - Supplier ratings reveal performance risks: poor rated suppliers delivered large volumes.
-- Unrated and unknown-rated suppliers need evaluation.
+- Unrated and unknown rated suppliers need evaluation.
 
 ## Recommendations
 - Investigate 2025 revenue decline and late delivery trends.
 - Improve delivery experience for new customers.
-- Focus on reliable, high-rated suppliers.
+- Focus on reliable, high rated suppliers.
 - Track supplier performance consistently.
-- Optimize stock for in-demand products.
+- Optimize stock for in demand products.
 
 **Tools Used**: Power BI    
 **Focus Area**: Data Analysis | Supply Chain | BI Reporting
