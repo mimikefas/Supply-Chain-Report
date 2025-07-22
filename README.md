@@ -1,17 +1,26 @@
 # Supply-Chain-Overview-Report
-## Dataset Information
+## Project Overview
+This project presents a detailed supply chain analysis using Power BI. This project was developed to analyze these critical areas using data to uncover patterns in order fulfillment, supplier behavior, customer demand, and delivery performance  and provide insights that can help businesses make more informed, proactive decisions. This dashboard offers a complete view of the supply chain across four key areas: products, revenue, customer orders, and suppliers. It was designed to identify operational gaps, revenue patterns, and areas for improvement in delivery and supply reliability. 
+The data was provided in a collaborative SQL group, focusing on customer retention and delivery issues. Instead of limiting the scope, the dataset was adapted and cleaned to extract insights that support better supply chain management.
 
-This dataset was originally shared in a private SQL-based data analysis group. While the initial goal was to explore customer retention and delivery delays, I repurposed it for a full end-to-end Supply Chain Overview Dashboard in Power BI.
+## Project Motivation
+Many businesses struggle or even shut down due to overlooked supply chain issues—poor product quality, supplier errors, bad transportation systems, or unforeseen disruptions. This dashboard helps bridge that gap by providing visibility into the entire supply chain process, offering actionable insights that can reduce inefficiencies and support smarter decisions.
 
-Data Source: Group collaboration (not from public repositories like Kaggle)
+## Tech Stack
+•	Power BI – for cleaning data (Power Query) and visualizing insights
 
-## Tables and Row Counts:
-	•	orders – 38,000 
-	•	order_items – 83,780
-	•	products – 200
-	•	customers – 15,210
-	•	suppliers – 15 
-	•	locations – Rivers, Abia, FCT, Edo, Cross River, Enugu, Plateau, Kaduna, Kano, Lagos, Imo, Akwa Ibom, Delta
+## Dataset Description
+The project includes five main tables:
+	•	orders 
+	•	order_items 
+	•	products 
+	•	customers 
+	•	suppliers
+
+Each table was cleaned and connected using appropriate foreign key relationships, with roles clearly defined across tables (e.g., customer segments, product categories, supplier regions).
+
+ ## ER Diagram
+![model supply](https://github.com/user-attachments/assets/49fac88b-5acb-429b-85fb-10d215471992)
 
 ## Data Cleaning & Preparation
 
@@ -23,11 +32,7 @@ Before building the dashboard, the data went through several cleaning and transf
 	•	Created calculated columns (e.g. delivery status, delivery delays, customerType, shippinglocation)
 	•	Merged tables using Power BI relationships and Power Query
 
- ## Project Summary
-Many businesses struggle and often shut down due to weak links in their supply chain. Issues such as poor product performance, unreliable or uncooperative suppliers, inefficient transport systems, and unforeseen disruptions (like market shocks or delays) can severely impact profitability and customer satisfaction.
-This project was developed to analyze these critical areas using data to uncover patterns in order fulfillment, supplier behavior, customer demand, and delivery performance  and provide insights that can help businesses make more informed, proactive decisions. This dashboard offers a complete view of the supply chain across four key areas: products, revenue, customer orders, and suppliers. It was designed to identify operational gaps, revenue patterns, and areas for improvement in delivery and supply reliability. 
-
-## Key Findings from Dashboard
+## Dashboard Segments
 
  ## Product Insights
 	•	Total Products Tracked: 200
@@ -38,9 +43,12 @@ This project was developed to analyze these critical areas using data to uncover
 	•	Out of Stock: 48 products
 	•	Top Supplied Product: Happy Life Instead Pro
 	•	Highest Revenue Generating Product: You Are Providing Yourself Basic with ₦6.37 billion
+ 
 # Product Categories by Revenue:
 	•	Groceries generated the highest revenue
 	•	Followed by Health and Beauty
+ ![supply pic3](https://github.com/user-attachments/assets/f21a8c6a-1f3b-4afc-9314-8a576f9b3496)
+
 
 ## Revenue Insights
 
@@ -72,6 +80,8 @@ This project was developed to analyze these critical areas using data to uncover
         •       Highest Revenue Status: Partially Shipped – ₦5.53 million
         •	Peak Month by Revenue: May – ₦3.65 million
 	
+ ![supply pic4](https://github.com/user-attachments/assets/2724cbae-190f-44d2-be12-d865abc8335f)
+
 ## Customer & Order Insights
 	•	Total Orders: 38,000
 	•	Total Purchases: 35,750
@@ -83,6 +93,8 @@ This project was developed to analyze these critical areas using data to uncover
 	•	Old Customers made more orders – 23,469
 	•	New Customers – 14,971
 	•	Most Frequent Customer: C00001
+ 
+![supply pic](https://github.com/user-attachments/assets/f1c398c7-cada-4160-8532-236726baafd2)
 
 # Delivery Timing Breakdown:
 	•	Early Deliveries:
@@ -103,6 +115,9 @@ This project was developed to analyze these critical areas using data to uncover
 	•	Total Supplier Revenue: ₦43.41 billion
 	•	Top Supplier by Quantity: Nguyen Matthews – 89,675 units
 	•	Top Supplier by Revenue: Bowers and Sons – ₦21.64 billion
+ 
+ ![supply pic2](https://github.com/user-attachments/assets/26b4ee67-df80-4579-a10b-fc1a76962a8c)
+
 
 # Supplier Ratings Breakdown:
 
@@ -114,7 +129,7 @@ Poor	    4	    ₦17.25B	Cat Shoulder Lease A Echo	117,000
 Unknown	    2	    ₦3.58B	Drive Agent 1 Azume Plus	29,000
 Unrated	    3	    ₦3.94B	Hand Center Audience Deluxe	111,000
 
-## Insights from the Supply Chain Overview
+## Key Business Insights 
 
 ## Product Insights
 	•	Inventory imbalance detected: Out of 387,000 products produced, only 128,000 are still in stock, suggesting high demand — or a mismatch in production vs. consumption cycles.
@@ -150,8 +165,15 @@ Unrated	    3	    ₦3.94B	Hand Center Audience Deluxe	111,000
 	•	A few suppliers carry most of the load – Nguyen Matthews and Fitzpatrick supply the majority of stock. Heavy dependence on them could be risky if there is a disruption.
 	•	Revenue is concentrated in a few suppliers – Bowers and Sons alone generated ₦21.64B. Strong relationships and contract stability are crucial.
 	•	Supplier performance varies by rating – Surprisingly, some “Poor” or “Unrated” suppliers generated billions, suggesting rating does not always align with financial contribution. Review your rating criteria.
-	•	Excellent-rated suppliers are underutilized – They supply fewer units, yet generate strong revenue. These suppliers might be more scalable than currently assumed.
+	•	Excellent rated suppliers are underutilized – They supply fewer units, yet generate strong revenue. These suppliers might be more scalable than currently assumed.
 	•	Unrated and Unknown suppliers contribute significantly – This points to a data quality issue, important vendors are not fully profiled or evaluated.
+
+ ## Business Questions Answered
+	•	What customer type contributes most to revenue?
+	•	Which supplier regions are efficient vs problematic?
+	•	Are delays more common with new or old customers?
+	•	Which products drive the most returns?
+	•	What’s the purchase trend over time?
 
 ## Review
 	1.	Demand is strong, but supply inconsistencies (stockouts, late deliveries) risk losing market share.
