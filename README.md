@@ -47,7 +47,7 @@ Before building the dashboard, the data went through several cleaning and transf
 # Product Categories by Revenue:
 	•	Groceries generated the highest revenue
 	•	Followed by Health and Beauty
- ![supply pic3](https://github.com/user-attachments/assets/f21a8c6a-1f3b-4afc-9314-8a576f9b3496)
+![update  3](https://github.com/user-attachments/assets/060436e2-8d38-4a2b-a64f-d4bbbd69182b)
 
 
 ## Revenue Insights
@@ -80,7 +80,8 @@ Before building the dashboard, the data went through several cleaning and transf
         •       Highest Revenue Status: Partially Shipped – ₦5.53 million
         •	Peak Month by Revenue: May – ₦3.65 million
 	
- ![supply pic4](https://github.com/user-attachments/assets/2724cbae-190f-44d2-be12-d865abc8335f)
+ ![up date 4](https://github.com/user-attachments/assets/1480021a-2fca-46b5-b5e8-0dab21b6242e)
+
 
 ## Customer & Order Insights
 	•	Total Orders: 38,000
@@ -94,7 +95,8 @@ Before building the dashboard, the data went through several cleaning and transf
 	•	New Customers – 14,971
 	•	Most Frequent Customer: C00001
  
-![supply pic](https://github.com/user-attachments/assets/f1c398c7-cada-4160-8532-236726baafd2)
+![update 1](https://github.com/user-attachments/assets/608497a8-fbdc-4b0c-8ee2-c3f9022ed186)
+
 
 # Delivery Timing Breakdown:
 	•	Early Deliveries:
@@ -116,7 +118,8 @@ Before building the dashboard, the data went through several cleaning and transf
 	•	Top Supplier by Quantity: Nguyen Matthews – 89,675 units
 	•	Top Supplier by Revenue: Bowers and Sons – ₦21.64 billion
  
- ![supply pic2](https://github.com/user-attachments/assets/26b4ee67-df80-4579-a10b-fc1a76962a8c)
+![update  2](https://github.com/user-attachments/assets/dc082a6b-6d96-4727-abdb-46c364711999)
+
 
 
 # Supplier Ratings Breakdown:
